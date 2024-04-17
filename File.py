@@ -1,6 +1,6 @@
 import random
 ugen = []
-for agents in range(10000):
+for agents in range(1000):
     uas = ['SM-J260M','SM-J260Y','SM-J260G','SM-J260F','SM-J260T1','SM-J260A','SM-J260AZ','SM-S260DL']
     ft = ['SM-M625F','LM-K525', 'NID-1050','SM-A3051','CPH2069','RMX3286','A101XM','SM-A505GT','WKG-LX9','SM-A4260','Infinix X680C','RMX3265','GLA-LX1','Redmi 4X','V2204','vivo 2018','PCB-T104','2201122G','Infinix X688B','RMP2106','OXF-AN10','Infinix X6835B','CPH2399','SM-F731B','SM-T515','CPH2209','M2101K6R','V2135','SM-M307FN','JLN-LX3','CPH2123','Lenovo TB-X605F','V2110','RMX3572','LM-X420']
     an = ['9','8']

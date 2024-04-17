@@ -1,6 +1,6 @@
 import random
 ugen = []
-for agents in range(1000):
+for agents in range(10000):
     uas = ['RMX1911', 'RMX1919', 'RMX1927']
     ft = ['SM-M625F','LM-K525', 'NID-1050','SM-A3051','CPH2069','RMX3286','A101XM','SM-A505GT','WKG-LX9','SM-A4260','Infinix X680C','RMX3265','GLA-LX1','Redmi 4X','V2204','vivo 2018','PCB-T104','2201122G','Infinix X688B','RMP2106','OXF-AN10','Infinix X6835B','CPH2399','SM-F731B','SM-T515','CPH2209','M2101K6R','V2135','SM-M307FN','JLN-LX3','CPH2123','Lenovo TB-X605F','V2110','RMX3572','LM-X420']
     an = ['9','8']
@@ -17,5 +17,5 @@ for agents in range(1000):
     ub = random.choice(uas)
     efg = random.choice(ft)
     so = random.choice(su)
-    ua = "Dalvik/2.1.0 (Linux; U; Android "+str(random.randint(4, 13))+"; "+efg+" Build/"+so+") [FBAN/FB4A;FBAV/"+str(random.randint(111,555))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))+";[FBAN/FB4A;FBAV/196.0.0.92;FBBV/633638093;FBDM/{density=2.5,width=720,height=1600};FBLC/"+ap+";FBRV/361941738;FBCR/"+fd+";FBMF/realme;FBBD/realme;FBPN/com.facebook.katana;FBDV/"+ub+";FBSV/9.0;FBOP/1;FBCA/armeabi-v7a:armeabi;]"
+    ua = "Dalvik/2.1.0 (Linux; U; Android " + str(random.randint(4, 13)) + "; " + efg + " Build/" + so + ") [FBAN/FB4A;FBAV/" + str(random.randint(111, 555)) + ".0.0." + str(random.randrange(9, 49)) + str(random.randint(11, 77)) + ";FBBV/" + str(random.randint(1111111, 7777777)) + ";[FBAN/FB4A;FBAV/196.0.0.92;FBBV/633638093;FBDM/{density=2.5,width=720,height=1600};FBLC/" + ap + ";FBRV/361941738;FBCR/" + fd + ";FBMF/realme;FBBD/realme;FBPN/com.facebook.katana;FBDV/" + ub + ";FBSV/9.0;FBOP/1;FBCA/armeabi-v7a:armeabi;]"
     ugen.append(ua)

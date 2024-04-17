@@ -3,9 +3,12 @@ ugen=[]
 for agents in range(10000):
 		rr = random.randint
 		rc = random.choice
-		wo = ['SM-A025A','vivo 1909', 'V2023','V2020','V2027','V1930','SM-G885F','RMX3571','V1938CT','RMX2002','LIO-AL00','LM-Q520N','SM-M515F','SM-A515X','RMX3286','V2202','V2205','2112123AG','J9110','M2103K19PG','SM-A105FN','SM-X706B','CPH1871','LLD-L31','SM-G975F','LM-V409N','2201117SI','RMX1901','MAR-LX1A','V2145','SM-N960F','22101316UG','CPH2213','LM-V500N','SM-T517P','SM-A115M','M2102K1C','LIO-L29','SM-A217N']
+		wo = ['SM-A035G','SM-A032F', 'SM-A037M','SM-A105FN','SM-A102U','CPH2015','CPH2081','M2012K11G','RMX2151','RMX2040','RMX2061','RMX3081','RMX3471','RMX3392','CPH2195','220233L2I','220333QNY','Infinix X5010','X652C','Infinix X5515I','RMX2027','RMX3503','RMX3171','CPH2363','CPH1609','SM-X205','SM-A716U1','LM-G850','JAT-LX3','HRY-LX1','SM-N970U1','SM-T878U','M2006C3MT','M2006C3LVG','V2057A','JEF-NX9','STK-L22','220333QNY','V1921A']
 		ads = random.choice(wo)
-		uab = "Mozilla/5.0 (Linux; Android " + ads + " Build/" + str(random.randint(1000, 9999)) + ".0." + str(random.randint(1, 999)) + ") AppleWebKit/537.36 (KHTML, like Gecko) Chrome/" + str(random.randint(50, 999)) + ".0." + str(random.randint(1000, 4900)) + "." + str(random.randint(40, 999)) + " Mobile Safari/537.36"
-		uaxb = f"Mozilla/5.0 (Linux; Android {str(rr(4,13))}; " + ads + ") AppleWebKit/537.36 (KHTML, like Gecko) Chrome 4.0/" + str(random.randint(50, 999)) + ".0." + str(random.randint(1000, 4900)) + "." + str(random.randint(40, 900)) + " Mobile Safari/537.36"
-		ua = str(rc([uab,uaxb]))
+		su = ['QP1A.190711.020','QKQ1.190918.001','TP1A.220624.014','SP1A.210812.016','QTG3.200617.002','SQ3A.220705.0040','RP1A.200720.011']
+		ade = random.choice(su)
+		uab = "Mozilla/5.0 (Linux; Android " + ads + " Build/" + str(random.randint(1000, 9999)) + ".0." + str(random.randint(1, 999)) + ") AppleWebKit/537.36 (KHTML, like Gecko) Chrome/" + str(random.randint(50, 999)) + ".0." + str(random.randint(1000, 4900)) + "." + str(random.randint(40, 140)) + " Mobile Safari/537.36"
+		uaxb = f"Mozilla/5.0 (Linux; Android {str(rr(4,13))}; " + ads + ") AppleWebKit/537.36 (KHTML, like Gecko) Chrome 4.0/" + str(random.randint(50, 999)) + ".0." + str(random.randint(1000, 4900)) + "." + str(random.randint(40, 300)) + " Mobile Safari/537.36"
+		uaf = "Mozilla/5.0 (Linux; Android " + ads + " Build/"+ade+") AppleWebKit/537.36 (KHTML, like Gecko) Chrome/" + str(random.randint(50, 999)) + ".0." + str(random.randint(1000, 4900)) + "." + str(random.randint(40, 140)) + " Mobile Safari/537.36"
+		ua = str(rc([uab,uaxb,uaf]))
 		ugen.append(ua)

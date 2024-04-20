@@ -1,7 +1,7 @@
 import random
 ugen = []
 for agents in range(10005):
-	samsung = random.choice(['VCE-AL00','VCE-TL00','VCE-L22'])
+	samsung = random.choice(['COR-L29','COR-L09','COR-AL00','COR-AL10','COR-TL10'])
 	oppo = random.choice(['CPH1909','CPH1920','CPH1912'])
 	vivo = random.choice(['LM-Q610','LM-Q610.FG','LM-Q610.FGN','LM-Q610(FGN)','LM-Q610.YN','LM-Q725L','LM-Q725K','LM-Q725S'])
 	realme = random.choice(['RMX1911','RMX1919','RMX1927'])
@@ -19,7 +19,7 @@ for agents in range(10005):
 	fo = random.choice(xg)
 	efg = random.choice(ft)
 	so = random.choice(su)
-	ua1 = "Dalvik/2.1.0 (Linux; U; Android "+str(random.randint(4, 13))+"; "+efg+" Build/"+so+") [FBAN/FB4A;FBAV/"+str(random.randint(111,555))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))+";[FBAN/FB4A;FBAV/278.0.0.51.119;FBBV/229281782;FBDM/{density=3.375,width=1080,height=2045};FBLC/en_GB;FBRV/231325206;FBCR/Airtel;FBMF/ZTE;FBBD/ZTE;FBPN/com.facebook.katana;FBDV/Z6530V;FBSV/9;FBOP/19;FBCA/arm64-v8a:;]"
+	ua1 = "Dalvik/2.1.0 (Linux; U; Android "+str(random.randint(4, 13))+"; "+efg+" Build/"+so+") [FBAN/FB4A;FBAV/"+str(random.randint(111,555))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))+";[FBAN/FB4A;FBAV/278.0.0.51.119;FBBV/229281782;FBDM/{density=3.375,width=1080,height=2045};FBLC/en_GB;FBRV/231325206;FBCR/Jio 4G;FBMF/HUAWEI;FBBD/HUAWEI;FBPN/com.facebook.katana;FBDV/"+samsung+";FBSV/8.1;FBOP/19;FBCA/armeabi-v7a:armeabi;]"
 	ua2 = "Dalvik/2.1.0 (Linux; U; Android "+str(random.randint(4, 13))+"; "+efg+" Build/"+so+") [FBAN/FB4A;FBAV/"+str(random.randint(111,555))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))+";[FBAN/FB4A;FBAV/186.0.0.40.121;FBBV/489186927;FBDM/{density=2.75,width=720,height=1600};FBLC/"+ap+";FBRV/381936593;FBCR/"+fd+";FBMF/realme;FBBD/realme;FBPN/com.facebook.katana;FBDV/"+realme+";FBSV/9.0;FBOP/1;FBCA/armeabi-v7a:armeabi;]"
 	ua3 = "Dalvik/2.1.0 (Linux; U; Android "+str(random.randint(4, 13))+"; "+efg+" Build/"+so+") [FBAN/FB4A;FBAV/"+str(random.randint(111,555))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))+";[FBAN/FB4A;FBAV/336.0.0.40.121;FBBV/927195715;FBDM/{density=2.5,width=720,height=1520};FBLC/"+ap+";FBRV/185714729;FBCR/"+fd+";FBMF/oppo;FBBD/oppo;FBPN/com.facebook.katana;FBDV/CPH1955;FBSV/9.0;FBOP/1;FBCA/armeabi-v7a:armeabi;]"
 	ua4 = "Dalvik/2.1.0 (Linux; U; Android "+str(random.randint(4, 13))+"; "+efg+" Build/"+so+") [FBAN/FB4A;FBAV/"+str(random.randint(111,555))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))+";[FBAN/FB4A;FBAV/316.1.0.28.104;FBBV/421951021;FBDM/{density=3.0,width=1080,height=2160};FBLC/"+ap+";FBRV/431726670;FBCR/"+fd+";FBMF/lge;FBBD/lge;FBPN/com.facebook.katana;FBDV/"+vivo+";FBSV/8.1;FBOP/1;FBCA/armeabi-v7a:armeabi;]"

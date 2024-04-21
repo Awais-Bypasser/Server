@@ -23,7 +23,7 @@ for agents in range(10000):
     models_vivo = rc(['vivo NEX A', 'V2143', 'V1922A','V2206', 'V2102', 'V2059','V2148A','V2133A', 'V2066', 'V2050','V2025','V2126','V2028'])
     
     # Realme device details
-    models_re = rc(['RMX1805', 'RMX1821', 'RMX1851','RMX1911','RMX2032', 'RMX1929', 'RMX2103','RMX3231','RMX2063', 'RMX3063', 'RMX3197','RMX3581','RMX3312',RMX3357'])
+    models_re = rc(['RMX1805', 'RMX1821', 'RMX1851','RMX1911','RMX2032', 'RMX1929', 'RMX2103','RMX3231','RMX2063', 'RMX3063', 'RMX3197','RMX3581','RMX3312','RMX3357'])
     buld_re = rc(['QP1A.190711.020', 'QKQ1.190918.001', 'SP1A.210812.016', 'QTG3.200617.002', 'SQ3A.220705.0040', 'RP1A.200720.011', 'UKQ1.230924.001', 'UKQ1.230917.001', 'TP1A.220624.014'])
     ch_re = f"{str(rr(120, 999))}.0.{str(rr(3000, 6500))}.{str(rr(11, 999))}"
     

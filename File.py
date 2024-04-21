@@ -36,5 +36,5 @@ for agents in range(10005):
     "[FBAN/FB4A;FBAV/459.1.0.42.84;FBBV/586444216;FBDM/{density=2.625,width=1080,height=1920};FBLC/en_GB;FBRV/0;FBCR/ZONG;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-J730F;FBSV/9;FBOP/19;FBCA/armeabi-v7a:armeabi;]",
     "[FBAN/FB4A;FBAV/444.0.0.31.114;FBBV/546214355;FBDM/{density=2.0,width=720,height=1371};FBLC/en_US;FBRV/0;FBCR/Zong CMPak;FBMF/motorola;FBBD/motorola;FBPN/com.facebook.katana;FBDV/moto g(7) power;FBSV/10;FBOP/1;FBCA/armeabi-v7a:armeabi;]"
 ])
-	ua = str(random.choice([ua1,ua2,ua3,ua4]))
-	ugen.append(ua6)
+	ua = str(random.choice([ua1,ua2,ua3,ua4,ua6]))  # Add ua6 to the list of choices
+	ugen.append(ua6)  # Append the randomly chosen user agent to the ugen list

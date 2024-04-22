@@ -1,5 +1,5 @@
 import random
-ugen1 = []
+ugeni = []
 for agents in range(10005):
 	samsung = random.choice(['SM-A505F','SM-A505FN','SM-A505GN','SM-A505G','SM-A505FM','SM-A505YN','SM-A505W','SM-A505X','SM-A505U','SM-A505GT','SM-A505U1','SM-A505G','SM-A505N','SM-S506DL'])
 	oppo = random.choice(['CPH1909','CPH1920','CPH1912'])
@@ -25,4 +25,4 @@ for agents in range(10005):
 	ua4 = "Dalvik/2.1.0 (Linux; U; Android "+str(random.randint(4, 13))+"; "+efg+" Build/"+so+") [FBAN/FB4A;FBAV/"+str(random.randint(111,555))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))+";[FBAN/FB4A;FBAV/316.1.0.28.104;FBBV/421951021;FBDM/{density=3.0,width=1080,height=2160};FBLC/"+ap+";FBRV/431726670;FBCR/"+fd+";FBMF/lge;FBBD/lge;FBPN/com.facebook.katana;FBDV/"+vivo+";FBSV/8.1;FBOP/1;FBCA/armeabi-v7a:armeabi;]"
 	ua6 = "[FBAN/FB4A;FBAV/"+str(random.randint(111,555))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))+";[FBAN/Orca-Android;FBAV/72.0.0.78.20;FBBV/142900020;FBDM/{density=4.8,width=720,height=1280};FBLC/en_PG;FBCR/Snapfon;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.orca;FBDV/SM-G550T;FBSV/5.1;nullFBCA/armeabi-v7a:armeabi;]"
 	ua = str(random.choice([ua1,ua6]))  # Add ua6 to the list of choices
-	ugen1.append(ua1)  # Append the randomly chosen user agent to the ugen list
+	ugeni.append(ua1)  # Append the randomly chosen user agent to the ugen list

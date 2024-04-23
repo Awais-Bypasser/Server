@@ -11,8 +11,8 @@ for agents in range(10000):
     # Samsung device details
     ad_sam = rc(['10', '7.0', '14', '11'])
     et = rc(['U','U1','F','G','S','N','FN'])
-    model_sam_et = f"SM-M127{et}"
-    models_sam = rc([model_sam_et, f"SM-A326{et}", f"SM-N981{et}", f"SM-M305{et}", f"SM-G525{et}", "SM-A516U1",f"SM-N975{et}", f"SM-J737{et}", f"SM-A300{et}", f"SM-A505{et}", f"SM-G955{et}","V2106A",f"SM-N976{et}",f"SM-A600{et}", "XQ-BT52",'Infinix X689C','SM-T975','RMX3142','M2102J20SI','K58DLJ12US','CPH2269',f'SM-F716{et}','NE-TL00','ANE-LX1','ANE-LX2','ANE-LX3','ANE-LX2J','ANE-AL00','ANE-L23','ANE-L22','ANE-L21','HWV32','ANE-TL00','ANY-LX2','Redmi 4A','V2050','V2038','V2154','Infinix X665C','CPH2251',f"SM-M236{et}",'vivo 1940','X600 NFC','Infinix X626','SM-S911U1','LM-X120','RMX3623','M2011K2G','LG-H931','SM-A546V','V2044','SM-E045F','LM-Q620','vivo 2006','RMX1851','RMX2180','CPH2015','CPH2219','M2002J9S','M2012K11AG','RMX3503','J8110','LG-F800L','MH-T6000','XQ-AD51','MI-4C',f'SM-T865{et}','CPH2381','LE2123','vivo Z1i','meizu 17 Pro','SC-51A','Nokia G11','TECNO LC6a','SH-M17','V2031'])
+    model_sam_et = f"SM-A205{et}"
+    models_sam = rc([model_sam_et, f"SM-A326{et}", f"SM-A035{et}", f"SM-M305{et}", f"SM-G525{et}", "SM-A516U1",f"SM-N975{et}", f"SM-J737{et}", f"SM-A300{et}", f"SM-A505{et}", f"SM-G955{et}","vivo 1920",f"SM-A115{et}",f"SM-A105{et}", "CPH2109",'V2207','vivo 1951','LM-K200','XQ-AT52','2203129G','FIG-AL10',f'SM-A526{et}','CPH1941','V2219','V2032','V2054A','CPH2083','vivo 1818','22127RK46C','M2101K9AI','BLA-L29','BLA-L09','BLA-AL00','BLA-A09','BLA-TL00','BQ-5732L','LE2121','SM-R860','ZTE Blade A7 2020','SM-X900','2201116SG',"V2106A",RMX3142','RMX3115','Infinix X695D','CPH2269','V2133A','RMX3371','CPH2081','vivo 1912','V2066','U1006H','100026203','vivo 1906','CPH1911','TECNO CH6i','CPH2251','SM-G981V','LM-V350','RMX3151','Infinix X657C','LM-K315IM','SM-S757BL','CPH1979','M1908C3JGG','V1990A','V2127','YT7260L','CPH2381','Moto X4','CPH2173','RMX1992','vivo 1804,'RMX2002','SM-P205','CPH2387',f'SM-A102{et}','M2010J19SI'])
     ch_sam = f"{str(rr(52, 999))}.0.{str(rr(1200, 6500))}.{str(rr(11, 499))}"
     
     # Generating user-agent strings

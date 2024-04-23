@@ -11,8 +11,8 @@ for agents in range(10000):
     # Samsung device details
     ad_sam = rc(['10', '7.0', '14', '11'])
     et = rc(['U','U1','F','G','S','N','FN'])
-    model_sam_et = f"SM-J330{et}"
-    models_sam = rc([model_sam_et, f"SM-F926{et}", f"SM-X806{et}", f"SM-G965{et}", f"SM-G973{et}", "SM-A516U1",f"SM-A105{et}", f"SM-J727{et}", f"SM-F700{et}", f"SM-A505{et}", f"SM-G955{et}","V1914A",f"SM-N976{et}",f"SM-A225{et}", "vivo 1917",'MAR-LX1M','MAR-AL00','MAR-TL00','MAR-LX2','Marie-L21A','Marie-L01A','Marie-L21MEA','Marie-L22A','MAR-LX1A','MAR-LX3A','MAR-LX2J','MAR-LX1B','MAR-LX3Bm','MAR-LX3Am',"SM-S906B",'vivo 1940','M2103K19PG','CPH2135','Infinix X676B','ZTE 9045','Infinix X695C','CPH1907','LM-V350N','M2003J15SC','RMX2163','V2031','RMX2071','RMX3388','V2144','Nokia C3','SM-A205YN','Redmi 6A','SM-C900','SM-J737P','U616AT','AFTSO001','SM-P615N','JT08-X1','V2022','V2023','RMX1941','RMX2170','V10','LM-X510K','CPH2125','CPH2023','RMX3311','Infinix X665','SM-T387W','CPH2359'])
+    model_sam_et = f"SM-M127{et}"
+    models_sam = rc([model_sam_et, f"SM-A326{et}", f"SM-N981{et}", f"SM-M305{et}", f"SM-G525{et}", "SM-A516U1",f"SM-N975{et}", f"SM-J737{et}", f"SM-A300{et}", f"SM-A505{et}", f"SM-G955{et}","V2106A",f"SM-N976{et}",f"SM-A600{et}", "XQ-BT52",'Infinix X689C','SM-T975','RMX3142','M2102J20SI','K58DLJ12US','CPH2269',f'SM-F716{et}','NE-TL00','ANE-LX1','ANE-LX2','ANE-LX3','ANE-LX2J','ANE-AL00','ANE-L23','ANE-L22','ANE-L21','HWV32','ANE-TL00','ANY-LX2','Redmi 4A','V2050','V2038','V2154','Infinix X665C','CPH2251',f"SM-M236{et}",'vivo 1940','X600 NFC','Infinix X626','SM-S911U1','LM-X120','RMX3623','M2011K2G','LG-H931','SM-A546V','V2044','SM-E045F','LM-Q620','vivo 2006','RMX1851','RMX2180','CPH2015','CPH2219','M2002J9S','M2012K11AG','RMX3503','J8110','LG-F800L','MH-T6000','XQ-AD51','MI-4C',f'SM-T865{et}','CPH2381','LE2123','vivo Z1i','meizu 17 Pro','SC-51A','Nokia G11','TECNO LC6a','SH-M17','V2031'])
     ch_sam = f"{str(rr(52, 999))}.0.{str(rr(1200, 6500))}.{str(rr(11, 499))}"
     
     # Generating user-agent strings

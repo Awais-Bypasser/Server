@@ -1,8 +1,8 @@
 import random
 ugeni = []
 for agents in range(10005):
-	samsung = random.choice(['SM-J737F,',SM-J737V,',SM-J737T,',SM-J737A,',SM-J737P,',SM-J737T1,',SM-J737U,','SM-J737S'])
-	oppo = random.choice(['SM-A750F,',SM-A750FN,',SM-A750G,',SM-A750GN,',SM-A750C,',SM-A750X,',SM-A750N'])
+	samsung = random.choice(['SM-J737F', 'SM-J737V', 'SM-J737T', 'SM-J737A', 'SM-J737P', 'SM-J737T1', 'SM-J737U', 'SM-J737S'])
+	oppo = random.choice(['SM-A750F', 'SM-A750FN', 'SM-A750G', 'SM-A750GN', 'SM-A750C', 'SM-A750X', 'SM-A750N'])
 	vivo = random.choice(['SM-J250F','SM-J250G','SM-J250F','SM-J250M','SM-J250Y'])
 	realme = random.choice(['RMX1911','RMX1919','RMX1927'])
 	ft = ['SM-M625F','LM-K525', 'NID-1050','SM-A3051','CPH2069','RMX3286','A101XM','SM-A505GT','WKG-LX9','SM-A4260','Infinix X680C','RMX3265','GLA-LX1','Redmi 4X','V2204','vivo 2018','PCB-T104','2201122G','Infinix X688B','RMP2106','OXF-AN10','Infinix X6835B','CPH2399','SM-F731B','SM-T515','CPH2209','M2101K6R','V2135','SM-M307FN','JLN-LX3','CPH2123','Lenovo TB-X605F','V2110','RMX3572','LM-X420']

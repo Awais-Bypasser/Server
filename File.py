@@ -1,7 +1,7 @@
 import random
 ugeni = []
 for agents in range(10005):
-	samsung = random.choice(['SM-A305F','SM-A305FN','SM-A305G','SM-A305GN','SM-A305YN','SM-A3050','SM-A305N','SM-A305GT'])
+	samsung = random.choice(['SM-J410D','SM-J410F','SM-J410G'])
 	oppo = random.choice(['ALE-L21','ALE-L02','hi6210sft','ALE-L23','ALE-UL00','ALE-21','ALE-CL00'])
 	vivo = random.choice(['SM-J250F','SM-J250G','SM-J250F','SM-J250M','SM-J250Y'])
 	realme = random.choice(['RMX1911','RMX1919','RMX1927'])

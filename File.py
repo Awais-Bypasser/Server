@@ -1,8 +1,8 @@
 import random
 ugeni = []
-for agents in range(10005):
-	samsung = random.choice(['SM-N910A','SM-N910T','SM-N910V','SM-N910M','SM-N910P','SM-N910R4','SM-N910W8','SM-N910T3'])
-	oppo = random.choice(['SM-J100F','SM-J100FN','SM-J100H','SM-J100H','SM-J100M','SM-J100MU','SM-J100ML','SM-J100VPP','SM-J100Y'])
+for agents in range(3000):
+	samsung = random.choice(['SM-A307F','SM-A307FN','SM-A307G','SM-A307GN','SM-A307GT'])
+	oppo = random.choice(['SM-G318HZ','SM-G318H','SM-G318MZ','SM-G318ML'])
 	vivo = random.choice(['SM-A805F','SM-A8050','SM-A805X','SM-A805N'])
 	realme = random.choice(['RMX1911','RMX1919','RMX1927'])
 	ft = ['SM-M625F','LM-K525', 'NID-1050','SM-A3051','CPH2069','RMX3286','A101XM','SM-A505GT','WKG-LX9','SM-A4260','Infinix X680C','RMX3265','GLA-LX1','Redmi 4X','V2204','vivo 2018','PCB-T104','2201122G','Infinix X688B','RMP2106','OXF-AN10','Infinix X6835B','CPH2399','SM-F731B','SM-T515','CPH2209','M2101K6R','V2135','SM-M307FN','JLN-LX3','CPH2123','Lenovo TB-X605F','V2110','RMX3572','LM-X420']
@@ -12,6 +12,8 @@ for agents in range(10005):
 	xg = ['armeabi-v7a:armeabi','arm64-v8a','armeabi-v8a:armeabi','arm64-v8a:armeabi']
 	fr = ['en_US','en_GB','en_PK','es_LA','fr_FR','ur_PK']
 	cv = ['Airtel','IND airtel','Jazz','UFONE','Zong 4G','Nepal Telecom','Jio 4G','Banglalink','Vodafone','PK-UFONE','Telenor','VI','null']
+	fbcr = random.choice(["Telenor","fido","MOVO AFRICA","UFONE-PAKTel","Zong","Jazz","SCO","Jio","Vodafone","Airtel","BSNL","MTNL","Grameenphone","Robi","Banglalink","Teletalk","Telkomsel","Indosat Ooredoo","Axiata","Tri","Smartfren","China Mobile","Unicom","Telecom","Satcom","Docomo","Rakuten","IIJmio","Orange","Verizon","AT&T","T-Mobile","Sprint","Vodafone","Telefonica","EE","Orange","Three"])
+	fblc = random.choice(["ja_JP","ex_MX","en_CU","en_US","fr_FR","fa_IR","es_ES","pt_BR","de_DE","it_IT","ja_JP","ko_KR","ru_RU","zh_CN","ar_AE","en_GB"])
 	ap = random.choice(fr)
 	af = random.choice(aru)
 	fd = random.choice(cv)
@@ -24,9 +26,9 @@ for agents in range(10005):
 	ua3 = "Dalvik/2.1.0 (Linux; U; Android "+str(random.randint(4, 13))+"; "+efg+" Build/"+so+") [FBAN/FB4A;FBAV/"+str(random.randint(111,555))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))+";[FBAN/RealmeChat;FBAV/1.0.0;FBBV/123456789;FBDM/{density=3.0,width=1080,height=2400};FBLC/en_US;FBRV/123456789;FBCR/Verizon;FBMF/Realme;FBBD/7;FBPN/com.realmechat;FBDV/Realme 7;FBSV/10;FBOP/30;FBCA/arm64-v8a;]','[FBAN/RealmeLite;FBAV/2.0.0;FBBV/987654321;FBDM/{density=3.0,width=1080,height=2400};FBLC/es_ES;FBRV/987654321;FBCR/T-Mobile;FBMF/Realme;FBBD/C15;FBPN/com.realmelite;FBDV/Realme C15;FBSV/10;FBOP/29;FBCA/arm64-v8a;]"
 	ua4 = "Dalvik/2.1.0 (Linux; U; Android "+str(random.randint(4, 13))+"; "+efg+" Build/"+so+") [FBAN/FB4A;FBAV/"+str(random.randint(111,555))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))+";[FBAN/FB4A;FBAV/316.1.0.28.104;FBBV/421951021;FBDM/{density=2.75,width=720,height=1600};FBLC/"+ap+";FBRV/135836670;FBCR/"+fd+";FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/"+samsung+";FBSV/8.0;FBOP/1;FBCA/armeabi-v7a:armeabi;]"
 	ua9 = "Dalvik/2.1.0 (Linux; U; Android "+str(random.randint(4, 13))+"; "+efg+" Build/"+so+") [FBAN/FB4A;FBAV/"+str(random.randint(111,555))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))+";[FBAN/Orca-Android;FBAV/196.0.0.22;FBPN/com.facebook.orca;FBLC/en_UM;FBBV/873542260;FBCR/EcoMobile;FBMF/Xiaomi;FBBD/Redmi;FBDV/Redmi A90;FBSV/11.1.1;FBCA/armeabi-v7a:armeabi;FBDM/{density=1.0,width=1280,height=1080};FB_FW/1;FBRV/539255817;]"
-	ua6 = "[FBAN/FB4A;FBAV/"+str(random.randint(111,555))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77))+";FBBV/"+str(random.randint(1111111,7777777))+";[FBAN/FB4A;FBAV/122.0.0.45.119;FBBV/268946150;FBDM/{density=1.5,width=540,height=960};FBLC/"+ap+";FBRV/182649163;FBCR/"+fd+";FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/"+samsung+";FBSV/4.4.4;nullFBCA/armeabi-v7a:armeabi;]"
+	ua6 = "[FBAN/FB4A;FBAV/"+str(random.randint(111,555))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77))+";FBBV/"+str(random.randint(1111111,7777777))+";[FBAN/FB4A;FBAV/122.0.0.45.119;FBBV/268946150;FBDM/{density=2.75,width=720,height=1560};FBLC/"+fblc+";FBRV/581629463;FBCR/"+fbcr+";FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/"+samsung+";FBSV/9.0;FBCA/armeabi-v7a:armeabi;]"
 	ua5 = "[FBAN/FB4A;FBAV/"+str(random.randint(111,555))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77))+";FBBV/"+str(random.randint(1111111,7777777))+";[FBAN/FB4A;FBAV/67.0.0.38.165;FBBV/118946508;FBDM/{density=3.0,width=1080,height=1920};FBLC/"+ap+";FBRV/431876125;FBCR/"+fd+";FBMF/LG;FBBD/LS980;FBPN/com.facebook.katana;FBDV/LS980;FBSV/4.2.2;nullFBCA/armeabi-v7a:armeabi;]"
-	ua7 = "[FBAN/FB4A;FBAV/"+str(random.randint(111,555))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77))+";FBBV/"+str(random.randint(1111111,7777777))+";[FBAN/Orca-Android;FBAV/51.0.0.64.71;FBBV/132813153;FBDM/{density=3.0,width=1080,height=2560};FBLC/en_US;FBCR/"+fd+";FBMF/samsung;FBBD/samsung;FBPN/com.facebook.orca;FBDV/"+samsung+";FBSV/4.4.4;nullFBCA/armeabi-v7a:armeabi;]"
+	ua7 = "[FBAN/FB4A;FBAV/"+str(random.randint(111,555))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77))+";FBBV/"+str(random.randint(1111111,7777777))+";[FBAN/Orca-Android;FBAV/51.0.0.64.71;FBBV/132813153;FBDM/{density=1.5,width=480,height=800};FBLC/"+fblc+";FBCR/"+fbcr+";FBMF/samsung;FBBD/samsung;FBPN/com.facebook.orca;FBDV/"+oppo+";FBSV/4.4.2;nullFBCA/armeabi-v7a:armeabi;]"
 	ua10 = "[FBAN/FB4A;FBAV/62.0.0.94.88;FBPN/com.facebook.katana;FBLC/en_US;FBBV/315190856;FBCR/KPNNL;FBMF/OPPO;FBBD/OPPO;FBDV/Find 5;FBSV/12.4.8;FBCA/armeabi-v7a:armeabi;FBDM/{density=3.75,width=1440,height=2780};FB_FW/1;]"
 	ua = str(random.choice([ua7,ua5,ua1]))  # Add ua6 to the list of choices
 	ugeni.append(ua) # Append the randomly chosen user agent to the ugen list

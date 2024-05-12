@@ -32,3 +32,4 @@ def ugeni():
 	ua10 = "[FBAN/FB4A;FBAV/62.0.0.94.88;FBPN/com.facebook.katana;FBLC/en_US;FBBV/315190856;FBCR/KPNNL;FBMF/OPPO;FBBD/OPPO;FBDV/Find 5;FBSV/12.4.8;FBCA/armeabi-v7a:armeabi;FBDM/{density=3.75,width=1440,height=2780};FB_FW/1;]"
 	ua = str(random.choice([ua7,ua6]))  # Add ua6 to the list of choices
 	return ua # Append the randomly chosen user agent to the ugen list
+ugeni()

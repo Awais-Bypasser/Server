@@ -18,8 +18,8 @@ for agents in range(10000):
     # Generating user-agent strings
     u1 = f"Mozilla/5.0 (Linux; Android {str(rr(4, 13))}; {models_sam} Build/{buld_re}; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{ch_re} Mobile Safari/537.36"
     u4 = f"Mozilla/5.0 (Linux; Android {str(rr(4, 13))}; {models_sam} Build/{buld_re}) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{ch_re} Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/{fb_hua};]"
-    u5 = f"Mozilla/5.0 (Linux; Android {str(rr(4,13))}; {models_sam} Build/{buld_re}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome 4.0/" + str(random.randint(50, 999)) + ".0." + str(random.randint(1000, 4900)) + "." + str(random.randint(40, 900)) + " Mobile Safari/537.36"
-    u6 = f"Mozilla/5.0 (Linux; Android {models_sam} Build/" + str(random.randint(1000, 9999)) + ".0." + str(random.randint(1, 999)) + ") AppleWebKit/537.36 (KHTML, like Gecko) Chrome 4.0/" + str(random.randint(50, 999)) + ".0." + str(random.randint(1000, 4900)) + "." + str(random.randint(40, 140)) + " Mobile Safari/537.36"
+    u5 = f"Mozilla/5.0 (Linux; Android {str(rr(4, 13))}; {models_sam} Build/{buld_re}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome 4.0/{rr(50, 999)}.0.{rr(1000, 4900)}.{rr(40, 900)} Mobile Safari/537.36"
+    u6 = f"Mozilla/5.0 (Linux; Android {models_sam} Build/{rr(1000, 9999)}.0.{rr(1, 999)}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome 4.0/{rr(50, 999)}.0.{rr(1000, 4900)}.{rr(40, 140)} Mobile Safari/537.36"
     
-    ua = rc([u1,u4, u5, u6])
+    ua = rc([u1, u4, u5, u6])
     ugen.append(ua)

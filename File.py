@@ -2,13 +2,14 @@ import random
 
 ugeni = []
 for agents in range(10000):
-    samsung = random.choice(['SM-T580','SM-T585','SM-P580','SM-P585','SM-P585Y'])
-    realme = random.choice(['RMX3572','RMX3571'])
-    oppo = random.choice(['INE-LX1','INE-LX1r','INE-LX1','Sydney 6353','INE-LX2r','INE-AL00','INE-TL00'])
-    lg = random.choice(['vivo 1804','vivo 1806','vivo 1814'])
-    sony = random.choice(['X657','X657C','MZ-Infinix X657C','MZ-Infinix X657B'])
-    xiaomi = random.choice(['M2007J3SG','M2007J3SP','M2007J3SI','M2007J17C'])
-    vivo = random.choice(['SM-G973F','SM-G973U','SM-G973W','SM-G973U1','SM-G9730','SM-G973N','SM-G973X','SCV41','SM-G973C'])
+    samsung = random.choice(['SM-A015F','SM-A015F/DS','SM-A015G','SM-A015G/DS','SM-A015M','SM-A015M/DS','SM-A015T1','SM-S111DL','SM-A015V','SM-A015A','SM-A015AZ','SM-A015U','SM-A015U1'])
+    realme = random.choice([RMX3195','RMX3197'])
+    huawei = random.choice(['FLA-AL10','FLA-AL00','FLA-LX1','FLA-LX2','FLA-LX3','LDN-AL00','FLA-AL20','FLA-TL10'])
+    lg = random.choice(['V1962A','V1962BA'])
+    sony = random.choice(['X6511B','X6511','X6511E'])
+    xiaomi = random.choice(['M2011K2C','M2011K2G'])
+    oppo = random.choice(['CPH2015','CPH2073','CPH2081','CPH2029','CPH2031'])
+    vivo = random.choice(['SM-A705F','SM-A705FN','SM-A705GM','SM-A705MN','SM-A7050','SM-A705W','SM-A705YN','SM-A705X','SM-A705U'])
     fbcr = random.choice([
 	"Verizon Wireless", "AT&T", "T-Mobile", "Sprint", "Cricket Wireless", "US Cellular", 
 	"Boost Mobile", "Metro by T-Mobile", "TracFone Wireless", "Virgin Mobile USA", "Xfinity Mobile", 
@@ -59,14 +60,13 @@ for agents in range(10000):
     so = random.choice(su)
     efg = random.choice(ft)
     
-    ua6 = "[FBAN/FB4A;FBAV/"+str(random.randint(111, 555))+'.0.0.'+str(random.randrange(9, 49))+str(random.randint(11, 77))+";FBBV/"+str(random.randint(1111111, 7777777))+";[FBAN/FB4A;FBAV/112.0.0.75.49;FBBV/5891723;FBDM/{density=3.0,width=1080,height=2408};FBLC/"+fblc+";FBCR/"+fbcr+";FBMF/realme;FBBD/realme;FBPN/com.facebook.katana;FBDV/"+realme+";FBSV/12;FBOP/13;FBCA/arm64-v8a:;]"
-    ua5 = "[FBAN/FB4A;FBAV/"+str(random.randint(111, 555))+'.0.0.'+str(random.randrange(9, 49))+str(random.randint(11, 77))+";FBBV/"+str(random.randint(1111111, 7777777))+";[FBAN/FB4A;FBAV/17.0.0.37.72;FBBV/184729472;FBDM/{density=3.0,width=1080,height=2340};FBLC/"+fblc+";FBRV/243196785;FBCR/"+fbcr+";FBMF/HUAWEI;FBBD/HUAWEI;FBPN/com.facebook.katana;FBDV/"+oppo+";FBSV/8.1;FBOP/1;FBCA/armeabi-v7a:armeabi;]"
-    ua4 = "[FBAN/FB4A;FBAV/"+str(random.randint(111, 555))+'.0.0.'+str(random.randrange(9, 49))+str(random.randint(11, 77))+";FBBV/"+str(random.randint(1111111, 7777777))+";[FBAN/FB4A;FBAV/26.0.0.48.61;FBBV/4671823;FBDM/{density=3.0,width=1080,height=2340};FBLC/"+fblc+";FBCR/"+fbcr+";FBMF/vivo;FBBD/vivo;FBPN/com.facebook.katana;FBDV/"+lg+";FBSV/8.1;FBOP/1;FBCA/armeabi-v7a:armeabi;]"
-    ua2 = "[FBAN/FB4A;FBAV/"+str(random.randint(111, 555))+'.0.0.'+str(random.randrange(9, 49))+str(random.randint(11, 77))+";FBBV/"+str(random.randint(1111111, 7777777))+";[FBAN/FB4A;FBAV/167.0.0.83.27;FBBV/3104738;FBDM/{density=2.75,width=720,height=1600};FBLC/"+fblc+";FBCR/"+fbcr+";FBMF/Infinix;FBBD/Infinix;FBPN/com.facebook.katana;FBDV/"+sony+";FBSV/10;FBOP/1;FBCA/arm64-v8a:;]"
-    ua7 = "[FBAN/FB4A;FBAV/"+str(random.randint(111, 555))+'.0.0.'+str(random.randrange(9, 49))+str(random.randint(11, 77))+";FBBV/"+str(random.randint(1111111, 7777777))+";[FBAN/Orca-Android;FBAV/10.0.0.47.73;FBBV/1047284;FBDM/{density=3.0,width=1440,height=3040};FBLC/"+fblc+";FBCR/"+fbcr+";FBMF/samsung;FBBD/samsung;FBPN/com.facebook.orca;FBDV/"+vivo+";FBSV/9.0;FBCA/armeabi-v7a:armeabi;]"
-    ua10 = "[FBAN/FB4A;FBAV/"+str(random.randint(11, 77))+'.0.0.'+str(random.randrange(9, 49))+str(random.randint(11, 77))+";FBBV/"+str(random.randint(1111111, 7777777))+";[FBAN/Orca-Android;FBAV/38.0.0.0.18;FBBV/3619526;FBDM/{density=3.0,width=1080,height=2400};FBLC/"+fblc+";FBCR/"+fbcr+";FBMF/Xiaomi;FBBD/Xiaomi;FBPN/com.facebook.orca;FBDV/"+xiaomi+";FBSV/10;FBCA/arm64-v8a:;]"
-    ua1 = "Dalvik/2.1.0 (Linux; U; Android "+str(random.randint(4, 13))+"; "+efg+" Build/"+so+") [FBAN/FB4A;FBAV/"+str(random.randint(111, 555))+'.0.0.'+str(random.randrange(9, 49))+str(random.randint(11, 77))+";FBBV/"+str(random.randint(1111111, 7777777))+";[FBAN/FB4A;FBAV/169.0.0.57.168;FBBV/5816369;FBDM/{density=3.0,width=1200,height=1920};FBLC/"+fblc+";FBRV/427953182;FBCR/"+fbcr+";FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/"+samsung+";FBSV/6.0;FBOP/1;nullFBCA/armeabi-v7a:armeabi;]"
-    ua3 = "[FBAN/FB4A;FBAV/"+str(random.randint(11, 77))+'.0.0.'+str(random.randrange(9, 49))+str(random.randint(11, 77))+";FBBV/"+str(random.randint(1111111, 7777777))+";[FBAN/FB4A;FBAV/257.0.0.17.137;FBBV/2184026;FBDM/{density=3.0,width=1080,height=2412};FBLC/"+fblc+";FBRV/185753291;FBCR/"+fbcr+";FBMF/OPPO;FBBD/OPPO;FBPN/com.facebook.katana;FBDVCPH2373;FBSV/11;FBCA/arm64-v8a:;]"
-    
+    ua6 = "[FBAN/FB4A;FBAV/"+str(random.randint(111, 555))+'.0.0.'+str(random.randrange(9, 49))+str(random.randint(11, 77))+";FBBV/"+str(random.randint(1111111, 7777777))+";[FBAN/FB4A;FBAV/112.0.0.75.49;FBBV/5891723;FBDM/{density=2.75,width=720,height=1600};FBLC/"+fblc+";FBCR/"+fbcr+";FBMF/realme;FBBD/realme;FBPN/com.facebook.katana;FBDV/"+realme+";FBSV/11;FBOP/12;FBCA/arm64-v8a:;]"
+    ua5 = "[FBAN/FB4A;FBAV/"+str(random.randint(111, 555))+'.0.0.'+str(random.randrange(9, 49))+str(random.randint(11, 77))+";FBBV/"+str(random.randint(1111111, 7777777))+";[FBAN/FB4A;FBAV/17.0.0.37.72;FBBV/184729472;FBDM/{density=3.0,width=1080,height=2160};FBLC/"+fblc+";FBRV/243196785;FBCR/"+fbcr+";FBMF/HUAWEI;FBBD/HUAWEI;FBPN/com.facebook.katana;FBDV/"+huawei+";FBSV/8.0;FBOP/1;FBCA/armeabi-v7a:armeabi;]"
+    ua4 = "[FBAN/FB4A;FBAV/"+str(random.randint(111, 555))+'.0.0.'+str(random.randrange(9, 49))+str(random.randint(11, 77))+";FBBV/"+str(random.randint(1111111, 7777777))+";[FBAN/FB4A;FBAV/26.0.0.48.61;FBBV/4671823;FBDM/{density=3.0,width=1080,height=2400};FBLC/"+fblc+";FBCR/"+fbcr+";FBMF/vivo;FBBD/vivo;FBPN/com.facebook.katana;FBDV/"+lg+";FBSV/10;FBOP/1;FBCA/arm64-v8a:;]"
+    ua2 = "[FBAN/FB4A;FBAV/"+str(random.randint(111, 555))+'.0.0.'+str(random.randrange(9, 49))+str(random.randint(11, 77))+";FBBV/"+str(random.randint(1111111, 7777777))+";[FBAN/FB4A;FBAV/167.0.0.83.27;FBBV/3104738;FBDM/{density=2.75,width=720,height=1600};FBLC/"+fblc+";FBCR/"+fbcr+";FBMF/Infinix;FBBD/Infinix;FBPN/com.facebook.katana;FBDV/"+sony+";FBSV/11;FBOP/1;FBCA/arm64-v8a:;]"
+    ua7 = "[FBAN/FB4A;FBAV/"+str(random.randint(111, 555))+'.0.0.'+str(random.randrange(9, 49))+str(random.randint(11, 77))+";FBBV/"+str(random.randint(1111111, 7777777))+";[FBAN/Orca-Android;FBAV/10.0.0.47.73;FBBV/1047284;FBDM/{density=3.0,width=1080,height=2400};FBLC/"+fblc+";FBCR/"+fbcr+";FBMF/samsung;FBBD/samsung;FBPN/com.facebook.orca;FBDV/"+vivo+";FBSV/9.0;FBCA/armeabi-v7a:armeabi;]"
+    ua10 = "[FBAN/FB4A;FBAV/"+str(random.randint(11, 77))+'.0.0.'+str(random.randrange(9, 49))+str(random.randint(11, 77))+";FBBV/"+str(random.randint(1111111, 7777777))+";[FBAN/Orca-Android;FBAV/38.0.0.0.18;FBBV/3619526;FBDM/{density=4.0,width=1440,height=3200};FBLC/"+fblc+";FBCR/"+fbcr+";FBMF/Xiaomi;FBBD/Xiaomi;FBPN/com.facebook.orca;FBDV/"+xiaomi+";FBSV/11;FBOP/14;FBCA/arm64-v8a:;]"
+    ua1 = "Dalvik/2.1.0 (Linux; U; Android "+str(random.randint(4, 13))+"; "+efg+" Build/"+so+") [FBAN/FB4A;FBAV/"+str(random.randint(111, 555))+'.0.0.'+str(random.randrange(9, 49))+str(random.randint(11, 77))+";FBBV/"+str(random.randint(1111111, 7777777))+";[FBAN/FB4A;FBAV/169.0.0.57.168;FBBV/5816369;FBDM/{density=2.75,width=720,height=1520};FBLC/"+fblc+";FBRV/427953182;FBCR/"+fbcr+";FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/"+samsung+";FBSV/11;FBOP/12;FBCA/arm64-v8a:;]"
+    ua3 = "[FBAN/FB4A;FBAV/"+str(random.randint(11, 77))+'.0.0.'+str(random.randrange(9, 49))+str(random.randint(11, 77))+";FBBV/"+str(random.randint(1111111, 7777777))+";[FBAN/FB4A;FBAV/257.0.0.17.137;FBBV/2184026;FBDM/{density=2.75,width=720,height=1600};FBLC/"+fblc+";FBRV/279451384;FBCR/"+fbcr+";FBMF/OPPO;FBBD/OPPO;FBPN/com.facebook.katana;FBDV/"+oppo+";FBSV/9.0;FBCA/armeabi-v7a:armeabi;]"
     ua = random.choice([ua6, ua5, ua7, ua2, ua4, ua1, ua3, ua10])
     ugeni.append(ua)

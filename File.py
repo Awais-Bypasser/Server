@@ -3,7 +3,7 @@ import random
 ugeni = []
 for agents in range(10000):
     samsung = random.choice(['SM-A015F','SM-A015F/DS','SM-A015G','SM-A015G/DS','SM-A015M','SM-A015M/DS','SM-A015T1','SM-S111DL','SM-A015V','SM-A015A','SM-A015AZ','SM-A015U','SM-A015U1'])
-    realme = random.choice([RMX3195','RMX3197'])
+    realme = random.choice(['RMX3195','RMX3197'])
     huawei = random.choice(['FLA-AL10','FLA-AL00','FLA-LX1','FLA-LX2','FLA-LX3','LDN-AL00','FLA-AL20','FLA-TL10'])
     lg = random.choice(['V1962A','V1962BA'])
     sony = random.choice(['X6511B','X6511','X6511E'])

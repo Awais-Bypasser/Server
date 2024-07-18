@@ -18,4 +18,4 @@ for agents in range(10000):
 	efg = random.choice(ft)
 	so = random.choice(su)
 	ua = "Dalvik/2.1.0 (Linux; U; Android "+str(random.randint(4, 13))+"; "+efg+" Build/"+so+") [FBAN/FB4A;FBAV/"+str(random.randint(111,555))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))+";[FBAN/FB4A;FBAV/216.0.0.40.121;FBBV/1638093;FBLC/"+ap+";FBRV/452183915;FBCR/"+fd+";FBMF/samsung;FBBD/samsung;FBDV/"+ub+";FBSV/7.1.1;FBCA/armeabi-v7a:armeabi;FBDM/{density=3.0,height=1440,width=2960};]"
-	ugeni.append(ua
+	ugeni.append(ua)

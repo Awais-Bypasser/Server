@@ -22,7 +22,7 @@ for agents in range(10000):
 	ub = random.choice(uas)
 	efg = random.choice(ft)
 	so = random.choice(su)
-	uae = "Dalvik/2.1.0 (Linux; U; Android " + str(random.randint(4, 13)) + "; " + efg + " Build/" + so + ") [FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))+";[FBAN/FB4A;FBAV/216.0.0.40.121;FBBV/4926718;FBLC/"+ap+";FBRV/571628672;FBCR/"+fd+";FBMF/LGE;FBBD/LGE;FBDV/"+ub+";FBSV/7.0;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.75,height=1440,width=2880};]"
+	uae = "Dalvik/2.1.0 (Linux; U; Android " + str(random.randint(4, 13)) + "; " + efg + " Build/" + so + ") [FBAN/FB4A;FBAV/"+str(random.randint(10, 437))+".0.0."+str(random.randrange(1,99))+"."+str(random.randint(1,200))+";FBBV/"+str(random.randint(1111111, 7777777))+";[FBAN/FB4A;FBAV/216.0.0.40.121;FBBV/4926718;FBLC/"+ap+";FBRV/571628672;FBCR/"+fd+";FBMF/LGE;FBBD/LGE;FBDV/"+ub+";FBSV/7.0;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.75,height=1440,width=2880};]"
 	g = "[FBAN/Orca-Android;FBAV/346.0.0.7.117;FBPN/com.facebook.orca;FBLC/"+ap+";FBBV/2748168;FBCR/"+fd+";FBMF/HUAWEI;FBBD/HUAWEI;FBDV/"+uar+";FBSV/5.1.1;nullFBCA/armeabi-v7a:armeabi;FBDM/{density=2.75,width=720,height=1280};FB_FW/1;]"
 	uax = f"[FBAN/FB4A;FBAV/{facebook_version};FBBV/"+str(random.randint(1111111,7777777))+";"+g
 	ua = str(random.choice([uae,uax]))  # Add ua6 to the list of choices

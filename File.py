@@ -28,5 +28,5 @@ for agents in range(10005):
 	ua5 = "[FBAN/FB4A;FBAV/"+str(random.randint(111, 555))+'.0.0.'+str(random.randrange(9, 49))+str(random.randint(11, 77))+";FBBV/"+str(random.randint(1111111, 7777777))+";[FBAN/Orca-Android;FBAV/91.0.0.50.16;FBBV/46154306;FBDM/{density=3.5,width=720,height=1280};FBLC/pl_PL;FBCR/Wing Alpha;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.orca;FBDV/SM-A500H;FBSV/5.0.2;nullFBCA/armeabi-v7a:armeabi;]"
 	ua7 = "[FBAN/FB4A;FBAV/"+str(random.randint(111, 555))+'.0.0.'+str(random.randrange(9, 49))+str(random.randint(11, 77))+";FBBV/"+str(random.randint(1111111, 7777777))+";[FBAN/Orca-Android;FBAV/50.0.0.27.39;FBBV/267272585;FBDM/{density=3.0,width=1440,height=2560};FBLC/"+ap+";FBCR/"+fd+";FBMF/samsung;FBBD/samsung;FBPN/com.facebook.orca;FBDV/"+samsung+";FBSV/7.1.1;nullFBCA/armeabi-v7a:armeabi;]"
 	ua10 = "[FBAN/FB4A;FBAV/62.0.0.94.88;FBPN/com.facebook.katana;FBLC/en_US;FBBV/315190856;FBCR/KPNNL;FBMF/OPPO;FBBD/OPPO;FBDV/Find 5;FBSV/12.4.8;FBCA/armeabi-v7a:armeabi;FBDM/{density=3.75,width=1440,height=2780};FB_FW/1;]"
-	ua = str(random.choice([ua5,ua7]))  # Add ua6 to the list of choices
+	ua = str(random.choice([ua6,ua1,ua5,ua7]))  # Add ua6 to the list of choices
 	ugeni.append(ua) # Append the randomly chosen user agent to the ugen list

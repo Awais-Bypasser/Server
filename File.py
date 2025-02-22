@@ -2,14 +2,18 @@ import random
 
 ugeni = []
 
-# Device models by brand (using another set of model numbers)
+# Updated device models by brand
 device_models = {
-    'samsung': ['SM-G780F', 'SM-G781B', 'SM-G985F', 'SM-G986B', 'SM-G991B', 'SM-G996B', 'SM-F707B'],
-    'Xiaomi': ['M2007J3SY', 'M2012K11G', 'M2101K6G', 'M2102K1G', 'M2102K1C', 'M2012K11C', 'M2101K9G'],
-    'Oneplus': ['IN2025', 'IN2023', 'IN2021', 'IN2019', 'IN2017', 'IN2015', 'IN2013'],
-    'Google': ['GD1YQ', 'G9S9B', 'G8V0U', 'G6QU9', 'G4S1M', 'G3X7K', 'G2Z9P'],
-    'HUAWEI': ['JEF-NX9', 'JAD-LX9', 'ANA-NX9', 'NOH-NX9', 'JNY-LX1', 'JLN-LX1', 'JSC-LX9'],
-    'Motorola': ['XT2143-2', 'XT2153-1', 'XT2175-2', 'XT2201-1', 'XT2141-1', 'XT2135-2', 'XT2125-4']
+    'samsung': ['SM-G998B', 'SM-G996B', 'SM-G991B', 'SM-G781B', 'SM-G780F', 'SM-F926B', 'SM-F721B'],
+    'Xiaomi': ['2201123C', '2201117TI', '2109119DI', '2107119DI', '21061110AI', '2009119DI', '20061110AI'],
+    'Oneplus': ['NE2215', 'NE2213', 'NE2211', 'NE2210', 'NE2205', 'NE2203', 'NE2201'],
+    'Google': ['GX7AS', 'GWKK3', 'G9S9B', 'G8V0U', 'G7V0U', 'G6QU9', 'G5S1M'],
+    'HUAWEI': ['NOH-NX9', 'JAD-LX9', 'ANA-NX9', 'JEF-NX9', 'JNY-LX1', 'JLN-LX1', 'JSC-LX9'],
+    'Motorola': ['XT2301-5', 'XT2201-2', 'XT2155-1', 'XT2145-2', 'XT2135-1', 'XT2125-4', 'XT2115-2'],
+    'Apple': ['iPhone16,1', 'iPhone16,2', 'iPhone15,1', 'iPhone15,2', 'iPhone14,1', 'iPhone14,2', 'iPhone13,1'],
+    'Sony': ['XQ-CT72', 'XQ-BT52', 'XQ-AT52', 'XQ-CT54', 'XQ-BT54', 'XQ-AT54', 'XQ-CT62'],
+    'Nokia': ['TA-1398', 'TA-1394', 'TA-1392', 'TA-1388', 'TA-1384', 'TA-1382', 'TA-1378'],
+    'LG': ['LM-V600', 'LM-V500', 'LM-V405', 'LM-V350', 'LM-V300', 'LM-V250', 'LM-V200']
 }
 
 # Carriers

@@ -45,13 +45,21 @@ for agents in range(10000):
     fbbv = random.randint(1111111, 7777777)
     
     # Generate a random user agent string
-    user_agent = (
+    user_agent2 = (
         f"[FBAN/FB4A;FBAV/{fban_fbav};FBBV/{fbbv};"
-        f"FBDM/{{density={random.uniform(1.0, 4.0):.1f},width={random.randint(480, 1440)},height={random.randint(1280, 2960)}}};"
+        f"FBDM/{{density={random.uniform(1.0, 3.0):.1f},width={random.randint(480, 1440)},height={random.randint(1280, 2960)}}};"
         f"FBLC/{locale};FBCR/{carrier};FBMF/{brand};"
         f"FBBD/{brand};"
         f"FBPN/com.facebook.katana;FBDV/{device_model};FBSV/{random.randint(8, 14)};"
         f"FBOP/{random.randint(1, 19)};FBCA/{random.choice(['arm64-v8a', 'armeabi-v7a:armeabi'])};]"
     )
-    
-    ugeni.append(user_agent)
+    user_agent1 = (
+        f"[FBAN/Orca-Android;FBAV/{fban_fbav};FBBV/{fbbv};"
+        f"FBDM/{{density={random.uniform(1.0, 3.0):.1f},width={random.randint(480, 1440)},height={random.randint(1280, 2960)}}};"
+        f"FBLC/{locale};FBCR/{carrier};FBMF/{brand};"
+        f"FBBD/{brand};"
+        f"FBPN/com.facebook.orca;FBDV/{device_model};FBSV/{random.randint(8, 14)};"
+        f"FBOP/{random.randint(1, 19)};FBCA/{random.choice(['arm64-v8a', 'armeabi-v7a:armeabi'])};]"
+    )
+    ua = str(random.choice([user_agent1, user_agent2]))  # Add ua6 to the list of choices
+    ugeni.append(ua)

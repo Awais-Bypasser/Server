@@ -14,5 +14,6 @@ for agents in range(100000):
 	so = random.choice(su)
 	efg = random.choice(ft)
 	ua10 = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))+";[FBAN/Orca-Android;FBAV/38.0.0.0.18;FBBV/5818742;FBDM/{density=3.0,width=1080,height=1920};FBLC/"+fblc+";FBCR/"+fbcr+";FBMF/samsung;FBBD/samsung;FBPN/com.facebook.orca;FBDV/"+samsung+";FBSV/4.3;nullFBCA/armeabi-v7a:armeabi;]"
-	ua = str(random.choice([ua6,ua5,ua7,ua2,ua4,ua1,ua3,ua10]))  # Add ua6 to the list of choices
-	ugeni.append(ua10) # Append the randomly chosen user agent to the ugen list
+	ua2 = "[FBAN/FB4A;FBAV/"+str(random.randint(111,555))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77))+";FBBV/"+str(random.randint(1111111,7777777))+";[FBAN/FB4A;FBAV/122.0.0.18.63;FBBV/389908;FBDM/{density=3.0,width=1080,height=1920};FBLC/"+fblc+";FBRV/0;FBCR/"+fbcr+";FBMF/KYOCERA;FBBD/KYOCERA;FBPN/com.facebook.katana;FBDV/E6810;FBSV/6.0;FBCA/armeabi-v7a:armeabi;]"
+	ua = str(random.choice([ua10,ua2]))  # Add ua6 to the list of choices
+	ugeni.append(ua) # Append the randomly chosen user agent to the ugen list
